@@ -1,0 +1,385 @@
+{
+  "travel_info": {
+    "dates": "2025年8月3日 - 8月6日",
+    "duration": "4天3夜",
+    "traveler": "30歲男性，獨自旅行",
+    "accommodation": "ヴィアイン博多口駅前 (Via Inn Hakata Ekimae)",
+    "accommodation_address": "福岡市博多区博多駅前3-3-3",
+    "flights": {
+      "outbound": {
+        "date": "8月3日",
+        "flight": "CI110 中華航空",
+        "departure": "06:50 台北桃園機場 (TPE) T2",
+        "arrival": "09:55 福岡機場 (FUK) I",
+        "duration": "2h25m",
+        "aircraft": "空中巴士 A330-300 經濟艙N",
+        "note": "抵達後可直接搭地鐵機場線到博多站"
+      },
+      "return": {
+        "date": "8月6日",
+        "flight": "CI117 中華航空",
+        "departure": "21:00 福岡機場 (FUK) I",
+        "arrival": "22:25 台北桃園機場 (TPE) T2",
+        "duration": "2h25m",
+        "aircraft": "空中巴士 A321 NEO 經濟艙N",
+        "note": "建議19:00前到達機場辦理登機手續"
+      }
+    },
+    "interests": [
+      "動漫",
+      "潮流",
+      "美食",
+      "籃球"
+    ]
+  },
+  "transportation": {
+    "airport_to_hotel": {
+      "subway": {
+        "route": "福岡市地鐵機場線",
+        "time_to_hakata": "5分鐘",
+        "cost": "260日圓",
+        "note": "需先搭免費接駁巴士到國內線航廈，直接到博多站，步行2分鐘到酒店"
+      },
+      "bus": {
+        "to_hakata": "18分鐘，260日圓",
+        "note": "巴士到博多站，步行2分鐘到酒店"
+      }
+    },
+    "city_transport": {
+      "subway_lines": [
+        "機場線",
+        "箱崎線", 
+        "七隈線"
+      ],
+      "day_pass": "福岡市地下鐵一日券 - 成人800日圓",
+      "hotel_advantages": [
+        "博多站直結，交通超便利",
+        "到天神僅需6分鐘地鐵",
+        "到Canal City步行10分鐘",
+        "機場線直達，無需轉車"
+      ]
+    }
+  },
+  "daily_itinerary": {
+    "day1": {
+      "date": "8月3日（星期日）",
+      "theme": "抵達福岡 + 博多周邊動漫巡禮",
+      "morning": {
+        "time": "06:50 台北出發 → 09:55 抵達福岡",
+        "activities": [
+          "06:50 CI110中華航空從台北桃園機場T2起飛",
+          "09:55 抵達福岡機場國際線航廈",
+          "辦理入境手續、領取行李",
+          "搭乘免費接駁巴士到國內線航廈",
+          "搭乘地鐵機場線直達博多站（5分鐘，260日圓）",
+          "步行2分鐘到ヴィアイン博多口駅前辦理入住",
+          "放置行李，休息片刻，約11:30完成"
+        ]
+      },
+      "afternoon": {
+        "theme": "博多周邊動漫探索",
+        "locations": [
+          {
+            "name": "AMU Plaza博多",
+            "address": "1-1 Hakataekichuogai, Hakata Ward",
+            "description": "車站直結購物中心，內有動漫相關店鋪",
+            "distance_from_hotel": "步行3分鐘",
+            "rating": 4.0
+          },
+          {
+            "name": "CANAL CITY HAKATA",
+            "address": "1 Chome-2 Sumiyoshi, Hakata Ward",
+            "description": "大型複合式購物中心，有音樂噴泉表演",
+            "distance_from_hotel": "步行10分鐘",
+            "rating": 4.1
+          },
+          {
+            "name": "Gundam Base Fukuoka",
+            "address": "キャナルシティ博多サウスビル 1F",
+            "description": "鋼彈模型專門店，鋼彈迷必訪",
+            "distance_from_hotel": "步行10分鐘（在Canal City內）",
+            "rating": 4.3
+          },
+          {
+            "name": "天神動漫街",
+            "transport": "博多→天神 地鐵6分鐘",
+            "locations": [
+              {
+                "name": "Animate Fukuoka Parco",
+                "address": "福岡パルコ本館 8F 2 Chome-11-1 Tenjin, Chuo Ward",
+                "description": "九州最大的動漫專門店，各種動漫商品應有盡有",
+                "rating": 4.2
+              },
+              {
+                "name": "Mandarake Fukuoka",
+                "address": "グランドビル 2 Chome-9-5 Daimyo, Chuo Ward",
+                "description": "二手動漫商品寶庫，收藏品愛好者的天堂",
+                "rating": 4.1
+              }
+            ]
+          }
+        ]
+      },
+      "evening": {
+        "locations": [
+          {
+            "name": "中洲屋台街",
+            "address": "中洲川端周邊",
+            "description": "博多傳統屋台文化體驗",
+            "distance_from_hotel": "步行15分鐘",
+            "note": "晚餐在屋台享用拉麵"
+          }
+        ]
+      },
+      "food": [
+        {
+          "name": "中洲屋台拉麵",
+          "description": "在屋台體驗博多豚骨拉麵文化",
+          "distance_from_hotel": "步行15分鐘"
+        }
+      ]
+    },
+    "day2": {
+      "date": "8月4日（星期一）",
+      "theme": "天神潮流購物 + 美食探索",
+      "morning": {
+        "transport": "博多→天神 地鐵6分鐘",
+        "locations": [
+          {
+            "name": "福岡PARCO",
+            "address": "2 Chome-11-1 Tenjin, Chuo Ward",
+            "description": "時尚潮流百貨，各種品牌齊聚",
+            "rating": 3.9
+          },
+          {
+            "name": "天神地下街",
+            "address": "2 Chome-9 Tenjin, Chuo Ward", 
+            "description": "歐洲風格地下商店街，購物休閒好去處",
+            "rating": 3.8
+          }
+        ]
+      },
+      "afternoon": {
+        "locations": [
+          {
+            "name": "Melonbooks Fukuoka Tenjin Shop",
+            "address": "9F 1 Chome-9-1 Tenjin, Chuo Ward",
+            "description": "知名同人誌專門店",
+            "rating": 4.3
+          },
+          {
+            "name": "大名地區潮流店鋪巡禮",
+            "description": "探索福岡潮流文化聚集地"
+          }
+        ]
+      },
+      "food": [
+        {
+          "name": "Hakata Robata Fishman",
+          "address": "1 Chome-4-23 Imaizumi, Chuo Ward",
+          "description": "高評價海鮮居酒屋，新鮮刺身和燒烤",
+          "rating": 4.8
+        },
+        {
+          "name": "ICHIRAN拉麵（天神店）",
+          "description": "豚骨拉麵名店，天神分店體驗"
+        }
+      ],
+      "return_to_hotel": "天神→博多 地鐵6分鐘，步行2分鐘到酒店"
+    },
+    "day3": {
+      "date": "8月5日（星期二）",
+      "theme": "文化體驗 + 聖地巡禮",
+      "morning": {
+        "locations": [
+          {
+            "name": "櫛田神社",
+            "address": "1-41 Kamikawabatamachi, Hakata Ward",
+            "description": "福岡最具代表性的神社，博多祭典的中心地",
+            "distance_from_hotel": "步行12分鐘",
+            "rating": 4.3
+          },
+          {
+            "name": "博多町家民俗館",
+            "address": "6-10 Reisenmachi, Hakata Ward", 
+            "description": "體驗明治、大正時期博多町家文化",
+            "distance_from_hotel": "步行15分鐘",
+            "rating": 4.1
+          }
+        ]
+      },
+      "afternoon": {
+        "transport": "博多→太宰府 西鐵電車約40分鐘",
+        "locations": [
+          {
+            "name": "太宰府天滿宮",
+            "address": "太宰府市內山883",
+            "description": "學問之神天滿宮",
+            "rating": 4.5
+          },
+          {
+            "name": "寶滿竈門神社",
+            "description": "鬼滅之刃聖地竈門神社",
+            "note": "從太宰府可搭巴士前往",
+            "rating": 4.6
+          }
+        ]
+      },
+      "food": [
+        {
+          "name": "太宰府梅枝餅",
+          "description": "太宰府名物，現烤熱呼呼的梅枝餅"
+        },
+        {
+          "name": "博多站周邊居酒屋",
+          "description": "回到博多站附近享用晚餐",
+          "distance_from_hotel": "步行5分鐘內"
+        }
+      ],
+      "return_to_hotel": "太宰府→博多 西鐵+地鐵約50分鐘"
+    },
+    "day4": {
+      "date": "8月6日（星期三）",
+      "theme": "最後購物 + 返程準備",
+      "morning": {
+        "locations": [
+          {
+            "name": "AMU Plaza博多 最後購物",
+            "address": "1-1 Hakataekichuogai, Hakata Ward",
+            "description": "車站直結，方便購買伴手禮",
+            "distance_from_hotel": "步行3分鐘",
+            "rating": 4.0
+          },
+          {
+            "name": "博多阪急",
+            "address": "博多站內",
+            "description": "高品質伴手禮採購",
+            "distance_from_hotel": "步行5分鐘"
+          }
+        ]
+      },
+      "afternoon": {
+        "activities": [
+          "整理行李，退房",
+          "將行李寄存在酒店或博多站",
+          "最後一次市區漫步"
+        ],
+        "locations": [
+          {
+            "name": "博多運河城 最後巡禮",
+            "distance_from_hotel": "步行10分鐘",
+            "description": "最後一次參觀，購買遺漏的商品"
+          }
+        ]
+      },
+      "departure": {
+        "schedule": [
+          "17:00 從酒店出發前往機場",
+          "17:30 抵達福岡機場",
+          "19:00 完成登機手續與安檢",
+          "21:00 CI117中華航空起飛",
+          "22:25 抵達台北桃園機場T2"
+        ],
+        "transport": "博多站→福岡機場 地鐵5分鐘（260日圓）",
+        "note": "晚班機21:00起飛，建議19:00前完成登機手續"
+      },
+      "food": [
+        {
+          "name": "博多一風堂（博多站店）",
+          "description": "最後一餐豚骨拉麵，完美結束福岡之旅",
+          "distance_from_hotel": "步行5分鐘"
+        }
+      ]
+    }
+  },
+  "accommodation_recommendations": [
+    {
+      "name": "Hotel JAL City Tenjin, Fukuoka",
+      "address": "2 Chome-12-5 Daimyo, Chuo Ward",
+      "rating": 4.2,
+      "price_range": "中價位",
+      "features": [
+        "現代化設計",
+        "市區中心",
+        "交通便利"
+      ]
+    },
+    {
+      "name": "Tokyu Stay Fukuoka Tenjin",
+      "address": "3 Chome-21-24 Haruyoshi, Chuo Ward",
+      "rating": 4.4,
+      "price_range": "中價位",
+      "features": [
+        "廚房設備",
+        "舒適房間",
+        "長期居住型"
+      ]
+    },
+    {
+      "name": "Hotel Okura Fukuoka",
+      "address": "3-2 Shimokawabatamachi, Hakata Ward",
+      "rating": 4.3,
+      "price_range": "高價位",
+      "features": [
+        "豪華飯店",
+        "多家餐廳",
+        "健身設施"
+      ]
+    }
+  ],
+  "food_recommendations": {
+    "ramen": [
+      "ICHIRAN拉麵（總店）",
+      "Hakata Ramen ShinShin",
+      "Taiho Ramen",
+      "麺や兼虎"
+    ],
+    "seafood": [
+      "Hakata Robata Fishman",
+      "CHIKAE Fukuoka Seafood Restaurant",
+      "Yoshizuka Unagi"
+    ],
+    "yatai": [
+      "Yatai Keiji",
+      "Yatai Okamoto",
+      "Stall Tomochan"
+    ],
+    "unique": [
+      "Sanmi（番茄拉麵）",
+      "Daidai（水炊鍋）",
+      "Hakata Mizutaki Toriden"
+    ]
+  },
+  "shopping_spots": {
+    "anime": [
+      "Animate Fukuoka Parco",
+      "Melonbooks Fukuoka",
+      "Mandarake Fukuoka",
+      "Gundam Base Fukuoka"
+    ],
+    "fashion": [
+      "福岡PARCO",
+      "天神地下街",
+      "AMU Plaza Hakata",
+      "CANAL CITY HAKATA"
+    ],
+    "general": [
+      "LaLa Port Fukuoka",
+      "MARK IS Fukuoka Momochi",
+      "Aeon Shoppers Fukuoka"
+    ]
+  },
+  "transport_tips": [
+    "購買福岡市地下鐵一日券（800日圓）",
+    "使用IC卡方便搭乘各種交通工具",
+    "太宰府需搭西鐵電車，建議購買套票",
+    "機場到市區建議搭地鐵，快速便宜"
+  ],
+  "budget_estimate": {
+    "accommodation": "每晚8,000-15,000日圓",
+    "food": "每日3,000-5,000日圓",
+    "transport": "每日1,000-1,500日圓",
+    "shopping": "10,000-30,000日圓",
+    "attractions": "每日1,000-2,000日圓"
+  }
+}
